@@ -12,12 +12,46 @@ Data Analysis on Weather Dataset using Python
 <p>You have the dataset and open the Jupyter Notebook or you can also create a Kaggle notebook over there itself. The first step is to import the necessary libraries and load the dataset into a notebook.</p>
 <h1>Basic Python Pandas Data Analysis Functions</h1>
 <h3>1. Shape</h3>
-<h3>2. Data types</h3>
+
+  ```bash
+ data.shape
+```
+  <h3>2. Data types</h3>
+  
+  ```bash
+ data.dtypes
+```
+
 <h3>3. Unique </h3>
+  
+   ```bash
+ data['Weather'].unique()
+```
+  
 <h3>4. Count</h3>
+  
+   ```bash
+ data.count()
+```
+  
 <h3>5. Value counts</h3>
+  
+   ```bash
+ data['Weather'].value_counts()
+```
+  
 <h3>6.information</h3>
-<h3>7.Describe</h3><br><br>
+  
+   ```bash
+ data.info
+```
+  
+<h3>7.Describe</h3>
+  
+   ```bash
+data.describe()
+```
+  <br><br>
 <h1>Answering Different Data Analysis Problems</h1>
 <h3>Q1)To check if there are null values and drop them</h3>
 <h3>Q2) To find unique instances of weather types</h3>
